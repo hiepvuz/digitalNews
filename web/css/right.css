@@ -1,0 +1,44 @@
+
+.right{
+    width: 235px;
+    height: auto;
+    padding: 1%;
+}
+.newsRight {
+    width: 100%;
+    height: auto;
+    font-size: 13px;
+}
+.titleRight{
+    color: #42554e;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 6%;
+    padding-bottom: 6%;
+}
+.searchBox{
+    border: dashed 1px;
+}
+.searchButton{
+    border: none;
+    background-color: transparent;
+    font-weight: bold;
+    color: #999999;
+}
+.lastest55Articles
+{
+    padding-bottom: 5%;
+}
+.lastest55Articles a
+{
+    color: #42554e;
+}
+
+
+@media only screen and (max-width: 991px){
+    .right{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

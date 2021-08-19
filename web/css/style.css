@@ -1,0 +1,126 @@
+
+body{
+    background-color: #E7E7E7;
+    font-family: sans-serif;
+}
+.container{    
+    background-image: url(../images/bg.jpg) ;
+    background-repeat: repeat-y;
+    width: 886px;
+    height: auto;
+    margin: 0 auto;
+}
+.content
+{
+    /*    width: 760px;*/
+    width: max-content;
+    margin: 0 auto;
+    height: auto;
+    display: flex;
+}
+.left
+{
+    width: 485px;
+    height: auto;
+    padding: 2%;
+    border-right: dotted 2px;
+    border-color: #e0e0e0;
+}
+.left a
+{
+    text-decoration: none;
+    color: #42554e;
+    font-weight: bold;
+}
+
+.title
+{
+    font-size: 18px;
+    color: #42554e;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+.signature
+{
+    float:right;
+    color: #42554e;
+    font-size: 10px;
+    margin-top: 5px;
+}
+.image img
+{
+    width: 400px;
+    height: auto;
+    padding-bottom: 20px;
+}
+.text{
+    padding-bottom: 40px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+/*.left_Search{
+    display: grid;
+}*/
+
+.findout{
+    display: inline-block;
+}
+.image_search img
+{
+    width: 200px;
+    height: 112.44px;
+    float: left;
+    margin-right: 10px;
+}
+
+.paging
+{
+    margin-top: 40px;
+    text-align: center;
+}
+.paging a{
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 2px;
+    border: 1px solid;
+}
+.active{
+    color: red !important;
+    pointer-events: none;}
+
+.footer{
+    background-image: url(../images/footer.jpg);
+    width: 887px;
+    height: 78px;
+}   
+
+
+@media only screen and (max-width: 991px) {
+    .content{
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .left{
+        display: block;
+        border-right: none;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .right{
+        display: block;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .container{
+        background-image: url(../images/bg.jpg) ;
+        background-repeat: repeat-y;
+/*        width: 100%;*/
+    }
+    .preheader, .header, .menu, .content,.footer{
+        background-size: 100%;
+    }
+}
+
